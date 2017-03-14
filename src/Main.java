@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         /*
         *
-        *The java.time classes covered here are:
+        * The java.time classes covered here are:
         *
         *  "LocalDate" - Year/Month/Day
         *
@@ -16,15 +16,12 @@ public class Main {
         *
         *  "MonthDay" - Month/Day
         *
+        *  "YearMonth" - Year/Month
+        *
         *  "Year" - Only Year
-        *
-        * "YearMonth" - Year/Month
-        *
         */
 
         //Which Class you use will change depending on what your program needs to. "The right tool for the job"
-
-
 
 
         /*"LocalDate" - Year/Month/Day
@@ -51,7 +48,7 @@ public class Main {
         System.out.println("currentDate.isAfter(oldDate) ? : " + currentDate.isAfter(oldDate));
         System.out.println("currentDate.isBefore(oldDate) ? : " + currentDate.isBefore(oldDate));
 
-        System.out.println("------");
+
         System.out.println();
 
 
@@ -77,7 +74,7 @@ public class Main {
         System.out.println("currentDateTime.isAfter(oldDate) ? : " + currentDateTime.isAfter(oldDateTime));
         System.out.println("currentDateTime.isBefore(oldDate) ? : " + currentDateTime.isBefore(oldDateTime));
 
-        System.out.println("------");
+
         System.out.println();
 
         /*"MonthDay" - Month/Day
@@ -104,7 +101,7 @@ public class Main {
         System.out.println("currentMonthDay.isAfter(oldMonthDay) ? : " + currentMonthDay.isAfter(oldMonthDay));
         System.out.println("currentMonthDay.isBefore(oldMonthDay) ? : " + currentMonthDay.isBefore(oldMonthDay));
 
-        System.out.println("------");
+
         System.out.println();
 
 
@@ -132,7 +129,7 @@ public class Main {
         System.out.println("currentYearMonth.isAfter(oldYearMonth) ? : " + currentYearMonth.isAfter(oldYearMonth));
         System.out.println("currentYearMonth.isBefore(oldYearMonth) ? : " + currentYearMonth.isBefore(oldYearMonth));
 
-        System.out.println("------");
+
         System.out.println();
 
 
